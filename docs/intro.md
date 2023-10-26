@@ -21,7 +21,7 @@ To use Autopilot, you need to have a github account and your code hosted in a gi
 
 Steps:
 1. Install our [Github App](https://github.com/marketplace/code-autopilot-ai-coder) in your repositories
-2. Go to one of the repositories where you installed the app and [**create a new issue**](./createissue)
+2. Go to one of the repositories where you installed the app and [**create a new issue**](./getting-started/createissue)
 3. Autopilot will start indexing your repository and will reply to your issue with a suggested solution
 
 By default, autopilot will work on all issue opened, but it is possible to change that setting.
