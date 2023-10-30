@@ -1,27 +1,27 @@
 ---
 slug: /
 sidebar_position: 1
-tags:
-  - Intro
+tags: 
   - Getting started
 ---
 
 # Introduction
 
-**Code Autopilot** is tool that applies SOTA LLMs to software development processes. You can ask it to:
+## Overview of Code Autopilot
 
-- Provide step-by-step instructions on how to **implement features**
-- **Fix bugs**
+**Code Autopilot** is an advanced tool designed to assist software developers in automating tasks, bug fixing, and code reviewing. By leveraging state-of-the-art Language Models (SOTA LLMs), Code Autopilot simplifies and expedites the software development process, making it an indispensable asset for modern development teams.
+
+## Core Features
+
+- **Proposing Coding Solutions**: Given a task description, Autopilot proposes a coding solution to implement the required functionality.
+- **Bug Fixing**: Upon receiving a bug ticket, Autopilot suggests a fix to resolve the identified issue.
+- **Reviewing PRs**: Autopilot aids in reviewing pull requests by commenting on the PR, explaining the intent of the author, and offering suggestions for improvement.
 - **Explain** how a codebase works
+- Create tests *(Coming soon)*
+- Help build tasks that are compreensive and refined *(Coming soon)*
+- Rewrite commits and pull request descriptions *(Coming soon)*
+- Create release notes *(Coming soon)*
+- Create documentation *(Coming soon)*
+- Chat in the comments for additional information *(Coming soon)* 
 
-
-## Getting Started
-
-To use Autopilot, you need to have a github account and your code hosted in a github repository.
-
-Steps:
-1. Install our [Github App](https://github.com/marketplace/code-autopilot-ai-coder) in your repositories
-2. Go to one of the repositories where you installed the app and [**create a new issue**](./getting-started/createissue)
-3. Autopilot will start indexing your repository and will reply to your issue with a suggested solution
-
-By default, autopilot will work on all issue opened, but it is possible to change that setting.
+To make the most of Code Autopilot, ensure your task descriptions are clear and detailed. Mention `@autopilot` in your issue descriptions to invoke Autopilot on a particular task.
