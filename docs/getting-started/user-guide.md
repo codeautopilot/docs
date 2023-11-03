@@ -11,14 +11,12 @@ This section provides a detailed guide on how to use Code Autopilot for various 
 ## Proposing a Coding Solution
 
 1. **Create a New Issue**: In your GitHub repository, create a new issue describing the task for which you need a coding solution.
-2. **Invoke Autopilot**: Mention `@autopilot` in the issue description or on a comment to invoke Autopilot on the task.
-3. **Review Suggestions**: Once Autopilot processes the task description, review the suggested coding solution provided.
+2. **Review Suggestions**: `@autopilot` will automatically process the task description, and propose a coding solution.
 
 ## Bug Fixing
 
 1. **Create a Bug Ticket**: Create a ticket describing the bug you wish to fix.
-2. **Invoke Autopilot**: Mention `@autopilot` in the ticket description or on a comment to invoke Autopilot on the bug.
-3. **Review Suggestions**: Review the suggested bug fix provided by Autopilot, and implement the fix as necessary.
+2. **Review Suggestions**: `@autopilot` will automatically review the suggested bug, and propose the code to implement the fix.
 
 ## Reviewing PRs
 
