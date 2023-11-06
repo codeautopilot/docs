@@ -17,11 +17,11 @@ tags:
 - **Bug Fixing**: Upon receiving a bug ticket, Autopilot suggests a fix to resolve the identified issue.
 - **Reviewing PRs**: Autopilot aids in reviewing pull requests by commenting on the PR, explaining the intent of the author, and offering suggestions for improvement.
 - **Explain** how a codebase works
+- **Chat** in the comments for to refine the solution or get more information
 - Create tests *(Coming soon)*
 - Help build tasks that are comprehensive and refined *(Coming soon)*
 - Rewrite commits and pull request descriptions *(Coming soon)*
 - Create release notes *(Coming soon)*
 - Create documentation *(Coming soon)*
-- Chat in the comments for additional information *(Coming soon)* 
 
 To make the most of Code Autopilot, ensure your task descriptions are clear and detailed. Mention `@autopilot` in your issue descriptions to invoke Autopilot on a particular task.
