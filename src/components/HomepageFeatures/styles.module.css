@@ -3,9 +3,37 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.features:hover {
+  transform: scale(1.05);
 }
 
 .featureSvg {
   height: 200px;
   width: 200px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.featureSvg:hover {
+  transform: rotate(10deg);
+}
+
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+  }
+
+  .featureSvg {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .featureSvg {
+    height: 100px;
+    width: 100px;
+  }
 }
