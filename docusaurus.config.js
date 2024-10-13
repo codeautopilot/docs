@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://docs.codeautopilot.com',
+  url: 'http://localhost:3000',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -39,8 +39,7 @@ const config = {
       ({
         docs: {
           routeBasePath: '/', // Serve the docs at the site's root
-           editUrl:
-             'https://github.com/codeautopilot/docs/tree/main/',
+          // Removed editUrl as per the task requirement
         },
         blog: false,
         theme: {
@@ -72,7 +71,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discord.gg/r72ykfvyx7',
+                href: 'http://localhost:3000/discord',
               },
             ],
           },
